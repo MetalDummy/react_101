@@ -11,8 +11,8 @@ class Sumador extends React.Component {
     ) {
         return (
             <div>
-               Componente 2
-                   
+                Suma actual:
+               <p>{this.props.suma}</p>               
             </div>
         );
     }
